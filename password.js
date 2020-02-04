@@ -10,11 +10,11 @@ function obfuscate(args) {
 
     if (change == 'a') {
       output += '4';
-    } else if (change == 'e') {
+    } else if (change === 'e') {
       output += '3';
-    } else if (change == 'o') {
+    } else if (change === 'o') {
       output += '0';
-    } else if (change == 'l') {
+    } else if (change === 'l') {
       output += '1';
     } else {
       output += change;
